@@ -25,7 +25,7 @@ section {
 }
 
 /*SKILLS CONTAINER*/
-.services .container {
+.skill .container {
     width: 80%;
     max-width: 120rem;
     height: 100%;
@@ -225,11 +225,7 @@ li {
     font-size: 10rem;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, 
     system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    /*background: linear-gradient(to top, #ffe838, #0c00f9);*/
-    /*background: linear-gradient(to top, #0095f9, #0095f9);*/
     -webkit-background-clip: text;
-    /*-webkit-text-fill-color: transparent;*/
-    /*-webkit-text-stroke: 2px black;*/
     padding: 1rem;
     user-select: none
 }
@@ -314,7 +310,7 @@ li {
 }
 /*End about*/
 
-/*Start services*/
+/*Start skills*/
 .my-skills {
     margin-top: 10rem;
     align-items: center;
@@ -355,7 +351,7 @@ li {
     margin: auto;
     transform: rotate(-45deg);
 }
-/*End services*/
+/*End skills*/
 .portfolio-item {
     display: flex;
     align-items: center;
@@ -371,10 +367,6 @@ li {
 .portfolio-img {
     width: 50rem;
     flex: 1;
-}
-
-.portfolio-description {
-
 }
 
 .portfolio-description h1 {
@@ -403,7 +395,7 @@ li {
 .portfolio-description .cta:hover {
     color: #2f67cd;
 }
-/*End services*/
+/*End skills*/
 
 /*Start timeline*/
 .timeline ul {
@@ -638,3 +630,43 @@ li {
     }
 }
 /*End media queries*/
+
+@media only screen and (max-width: 414px) {
+    /* .landing-text h1{
+        font-size: 7rem;
+    }
+
+    .landing-text h2 {  
+        font-size: 5rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.5rem;
+    } */
+
+    .landing-text h2 {
+        right: 0px;
+    }
+
+    .landing-text h3 {
+        left: 0px;
+    }
+
+    .icon-container {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .skill {
+        padding: 2rem;
+    }
+
+    .skill h1 {
+        font-size: 1em;
+    }
+
+    .portfolio-img {
+        position: relative;
+        left: 60px;
+    }
+}
