@@ -207,6 +207,8 @@ li {
     width: 100%;
     text-align: center;
     z-index: 1;
+    color: #ffe838;
+    text-shadow: 2px 2px #0c00f9;
 }
 
 .landing-text h2 {
@@ -243,7 +245,8 @@ li {
 .landing-text h6 {
     font-size: 2rem;
     font-weight: 300;
-    color: #2f67cd;
+    color: white;
+
 }
 /*End header*/
 
